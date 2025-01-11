@@ -1,0 +1,22 @@
+/*1.descendant combinator (space)- select elements (like a parant a child) */
+article p {
+    background: blue
+    color : white
+    padding: 20px;
+}
+/* 2. child combinator (>) - selects direct children inside an element */
+article > p {
+    backround: red
+}
+
+/* 3. general sibling combinator (~) - selects all siblings an elements */
+article  ~ p {
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+
+/* 4. adjacent sibling combinator (+) - selects the next sibling  after an element */
+article + p{
+    background: orange;
+}
