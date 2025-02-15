@@ -114,14 +114,14 @@ transition-delay: 2s;
         background: blue;
         border-radius:50% ;
     }
-div#transion2{
+div#transition2{
     width: 200px;
     height: 200px;
     margin-top: 20px;
     background: gray;
-    transition: .3 ease-in-out;
+    transition: .3s ease-in-out;
 }
-div#transion2:hover{
+div#transition2:hover{
     background: blue;
     transform: scale(1.3);
     filter: grayscale(0);
