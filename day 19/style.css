@@ -1,0 +1,130 @@
+.container{
+    background-color: lightblue;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: ROW;
+    flex-wrap: wrap-reverse;
+}
+.container div{
+    background-color: white;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 100px;
+    height: 30px;
+}
+.container div:nth-child(1){
+    order: 2;
+}
+.container div:nth-child(2){
+    flex-grow: 8;
+}
+.container div:nth-child(3){
+   flex-grow: 8;
+}
+.container div:nth-child(4){
+    order: 1;
+}
+.container2{
+    margin-top: 20px;
+    background-color: gray;
+    border: 5px black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container2 div{
+    background-color: rgb(25, 66, 24);
+    border: 5px solid black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 100px;
+    height: 30px;
+}
+.container3{
+    margin-top: 20px;
+    background-color: red;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container3 div{
+    background-color: rgb(13, 224, 13);
+    border: 5px solid black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 100px;
+    height: 30px;
+}
+.container4{
+    margin-top: 20px;
+    background-color: red;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    height: 200PX;
+}
+.container4 div{
+    background-color: rgb(13, 129, 224);
+    border: 5px solid black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 100px;
+    height: 30px;
+}
+.container4 DIV:nth-child(2){
+    align-self: flex-end;
+}
+.container5{
+    margin-top: 20px;
+    background-color: yellow;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+align-items: center;
+}
+.container5 div{
+    background-color:red ;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 100px;
+    height: 30px;
+}
+.container5 div:nth-child(1){
+    height: 20PX;
+}
+.container5 div:nth-child(2){
+   height: 100PX;
+}
+.container5 div:nth-child(3){
+  height: 50PX;
+}
+.container5 div:nth-child(4){
+    height: 113PX;
+}
+.container6{
+    margin-top: 20px;
+    background-color: yellow;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+height: 800px;
+align-content: flex-start;
+flex-wrap: wrap;
+}
+.container6 div{
+    background-color:red ;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 400px;
+    height: 200px;
+}
