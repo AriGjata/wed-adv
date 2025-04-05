@@ -1,18 +1,16 @@
-/* Reset default margins and paddings */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Basic styling for the body */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
 }
 
-/* Header and navigation */
 header {
     background-color: #333;
     color: #fff;
@@ -35,7 +33,6 @@ nav ul li a {
     font-size: 18px;
 }
 
-/* Home section */
 #home {
     text-align: center;
     padding: 50px 20px;
@@ -43,7 +40,6 @@ nav ul li a {
     color: white;
 }
 
-/* Menu section */
 #menu {
     padding: 40px 20px;
     text-align: center;
@@ -70,14 +66,12 @@ nav ul li a {
     color: #333;
 }
 
-/* About section */
 #about {
     padding: 40px 20px;
     text-align: center;
     background-color: #f8f8f8;
 }
 
-/* Contact section */
 #contact {
     padding: 40px 20px;
     text-align: center;
@@ -110,7 +104,6 @@ form button:hover {
     background-color: #ff4f3d;
 }
 
-/* Footer */
 footer {
     background-color: #333;
     color: white;
