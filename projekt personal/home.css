@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #8a3535;
     color: #fff;
     padding: 10px 0;
 }
@@ -39,57 +39,77 @@ nav ul li a {
     color: white;
 }
 
-#menu {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.menu-item {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-}
-
-.menu-item h3 {
-    color: #333;
-    font-size: 22px;
-}
-
-.menu-item p {
-    color: #777;
-    font-size: 16px;
-}
-
-.menu-item span {
-    font-weight: bold;
-    color: #333;
-    font-size: 18px;
-    display: block;
-    margin-top: 10px;
-}
-
-.buy-btn {
-    background-color: #ff6f61;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 15px;
-    font-size: 16px;
-}
-
-.buy-btn:hover {
-    background-color: #ff4f3d;
+#home .hero-image {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 #about {
     padding: 40px 20px;
     text-align: center;
     background-color: #f8f8f8;
+}
+
+#about .about-image {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#menu-preview {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.menu-preview-item {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-preview-item h3 {
+    color: #333;
+}
+
+.menu-preview-item p {
+    color: #777;
+}
+
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff4f3d;
 }
 
 footer {
@@ -100,10 +120,17 @@ footer {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 36px;
 }
 
 h2 {
     font-size: 30px;
-    margin-top: 20px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
 }

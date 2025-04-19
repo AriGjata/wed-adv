@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porosit Online - Te Shefkia</title>
+    <link rel="stylesheet" href="blej.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">Rreth nesh</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section id="order">
+        <h1>Porosit Tani</h1>
+        <p>Shijo ushqimin tuaj të preferuar nga Te Shefkia duke porositur online!</p>
+
+        <form action="submit-order.php" method="POST">
+            <div class="menu-item">
+                <h3>Pizza</h3>
+                <img src="pizza.jpg" width="200px" alt="Pizza">
+                <p>Pizza klasike dhe shumë e shijshme.</p>
+                <span>7.00€</span>
+                <label for="pizza">Numri i Pizzave:</label>
+                <input type="number" id="pizza" name="pizza" min="0" value="0">
+            </div>
+
+            <div class="menu-item">
+                <h3>Makarona</h3>
+                <img src="makarona.jpg" width="200px" alt="Makarona">
+                <p>Makarona të thjeshta, por me shije të mrekullueshme.</p>
+                <span>9.00€</span>
+                <label for="pasta">Numri i Makarona:</label>
+                <input type="number" id="pasta" name="pasta" min="0" value="0">
+            </div>
+
+            <div class="menu-item">
+                <h3>Sallatë</h3>
+                <img src="sallat.jpg" width="200px" alt="Sallatë">
+                <p>Sallata të freskëta, të gjitha përbërësit janë nga bashkësia jonë.</p>
+                <span>6.00€</span>
+                <label for="salad">Numri i Sallatave:</label>
+                <input type="number" id="salad" name="salad" min="0" value="0">
+            </div>
+
+            <div class="menu-item">
+                <h3>Hamburger</h3>
+                <img src="burger.jpg" width="200px" alt="Hamburger">
+                <p>Hamburger i shijshëm, i cili vjen edhe me pomfrita.</p>
+                <span>4.00€</span>
+                <label for="burger">Numri i Hamburgereve:</label>
+                <input type="number" id="burger" name="burger" min="0" value="0">
+            </div>
+
+            <h2>Pije</h2>
+
+            <div class="menu-item">
+                <h3>Coca-Cola</h3>
+                <img src="cocacola.jpg" width="200px" alt="Coca-Cola">
+                <span>2.00€</span>
+                <label for="coca">Numri i Coca-Colave:</label>
+                <input type="number" id="coca" name="coca" min="0" value="0">
+            </div>
+
+            <div class="menu-item">
+                <h3>Ice Tea</h3>
+                <img src="icetea.jpg" width="200px" alt="Ice Tea">
+                <span>1.50€</span>
+                <label for="icetea">Numri i Ice Teas:</label>
+                <input type="number" id="icetea" name="icetea" min="0" value="0">
+            </div>
+
+            <div class="menu-item">
+                <h3>Fluid</h3>
+                <img src="fluidi.jpg" width="200px" alt="Fluid">
+                <span>1.00€</span>
+                <label for="fluid">Numri i Fluid:</label>
+                <input type="number" id="fluid" name="fluid" min="0" value="0">
+            </div>
+            <section id="contact">
+                <h2>Na Kontaktoni</h2>
+                <p>Keni pyetje apo dëshironi të bëni një rezervim? Na kontaktoni dhe do të jemi të lumtur t'ju ndihmojmë!</p>
+                <form>
+                    <label for="name">Emri Juaj:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Adresa e Emailit:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="message">Mesazhi Juaj:</label>
+                    <textarea id="message" name="message" required></textarea>
+        
+                    <button type="submit">Dërgo Mesazhin</button>
+                </form>
+            </section>
+
+    <footer>
+        <p>&copy; Te Shefkia. Të gjitha të drejtat janë të rezervuara.</p>
+    </footer>
+
+</body>
+</html>

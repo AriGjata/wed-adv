@@ -1,0 +1,77 @@
+/* Rreth Nesh - Stilimi */
+#about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-text {
+    width: 60%;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.about-text h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.about-text p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-text li {
+    font-size: 16px;
+    color: #555;
+}
+
+.about-image img {
+    width: 35%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+ /* Navbar Styling */
+/* Navbar Styling */
+header {
+    background-color: #FF4F58; /* Candy Red */
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}

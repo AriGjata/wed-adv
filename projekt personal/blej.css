@@ -1,3 +1,4 @@
+/* Stilet e përgjithshme */
 * {
     margin: 0;
     padding: 0;
@@ -32,64 +33,55 @@ nav ul li a {
     font-size: 18px;
 }
 
-#home {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #ff6f61;
-    color: white;
-}
-
-#menu {
+/* Seksioni i porosisë */
+#order {
     padding: 40px 20px;
     text-align: center;
 }
 
+#order h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
 .menu-item {
-    margin: 20px;
+    margin: 20px 0;
     padding: 20px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
+    text-align: left;
 }
 
-.menu-item h3 {
-    color: #333;
-    font-size: 22px;
+.menu-item img {
+    max-width: 100%;
 }
 
-.menu-item p {
-    color: #777;
-    font-size: 16px;
-}
-
-.menu-item span {
-    font-weight: bold;
-    color: #333;
-    font-size: 18px;
+.menu-item label {
     display: block;
-    margin-top: 10px;
+    margin: 10px 0 5px;
 }
 
-.buy-btn {
+.menu-item input {
+    width: 100px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
     background-color: #ff6f61;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 15px;
     font-size: 16px;
+    margin-top: 20px;
 }
 
-.buy-btn:hover {
+button:hover {
     background-color: #ff4f3d;
-}
-
-#about {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #f8f8f8;
 }
 
 footer {
@@ -97,13 +89,4 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-}
-
-h1 {
-    font-size: 30px;
-}
-
-h2 {
-    font-size: 30px;
-    margin-top: 20px;
 }
