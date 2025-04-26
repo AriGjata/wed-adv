@@ -3,98 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Te Shefkia</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Te Shefkia - Kreu</title>
+    <link rel="stylesheet" href="menu.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="about.html">Rreth Nesh</a></li>
-                
             </ul>
         </nav>
     </header>
 
     <section id="home">
         <h1>Mirësevini në Te Shefkia</h1>
-        <p>Ushqim të shijshëm dhe mikpritje e paimagjinueshme. Ejani dhe shijoni një vakt të paharrueshëm me ne!</p>
+        <p>Përjetoni ushqim të shijshëm dhe mikpritje të jashtëzakonshme. Ejani dhe shijoni një vakt të paharrueshëm me ne!</p>
+        <img src="restaurant-logo-design-vector.jpg" alt="Restoranti Te Shefkia" class="hero-image">
     </section>
 
-    <section id="menu">
-        <h2>Menuja Jonë</h2>
-        
-        <div class="menu-item">
-            <h3>Pizza</h3>
-            <img src="pizza.jpg" width="300px" alt="Pizza">
-            <p>Pizza klasike dhe shumë e shijshme.</p>
-            <span>7.00€</span>
-            <!-- Link to blej.html -->
-            <a href="blej.html"><button class="buy-btn">Blej</button></a>
-        </div>
-        
-        <div class="menu-item">
-            <h3>Makarona</h3>
-            <img src="makarona.jpg" width="300px" height="250px" alt="Makarona">
-            <p>Makarona të thjeshta, por me shije të mrekullueshme.</p>
-            <span>9.00€</span>
-            <!-- Link to blej.html -->
-            <a href="blej.html"><button class="buy-btn">Blej</button></a>
-        </div>
-        
-        <div class="menu-item">
-            <h3>Sallatë</h3>
-            <img src="sallat.jpg" width="300px" alt="Sallatë">
-            <p>Sallata të freskëta, të gjitha përbërësit janë nga bashkësia jonë.</p>
-            <span>6.00€</span>
-            <!-- Link to blej.html -->
-            <a href="blej.html"><button class="buy-btn">Blej</button></a>
-        </div>
-        
-        <div class="menu-item">
-            <h3>Hamburger</h3>
-            <img src="burger.jpg" width="300px" alt="Hamburger">
-            <p>Hamburger i shijshëm, i cili vjen edhe me pomfrita, po ashtu edhe i bukur në pamje.</p>
-            <span>4.00€</span>
-            <!-- Link to blej.html -->
-            <a href="blej.html"><button class="buy-btn">Blej</button></a>
-        </div>
-        
-        <!-- Same for the drinks section -->
-        <div class="menu-item">
-            <h3>Coca-Cola</h3>
-            <img src="cocacola.jpg" width="300px" alt="Coca-Cola">
-            <span>2.00€</span>
-            <!-- Link to blej.html -->
-            <a href="blej.html"><button class="buy-btn">Blej</button></a>
-        </div>
-        
-        <div class="menu-item">
-            <h3>Ice Tea</h3>
-            <img src="icetea.jpg" width="300px" height="250px" alt="Ice Tea">
-            <span>1.50€</span>
-            <!-- Link to blej.html -->
-            <a href="blej.html"><button class="buy-btn">Blej</button></a>
-        </div>
-        
-        <div class="menu-item">
-            <h3>Fluid</h3>
-            <img src="fluidi.jpg" width="300px" height="250px" alt="Fluid">
-            <span>1.00€</span>
-            <!-- Link to blej.html -->
-            <a href="blej.html"><button class="buy-btn">Blej</button></a>
+    <section id="menu-preview">
+        <h2>Ushqimet Tona Speciale</h2>
+        <div class="menu-container">
+            <!-- Food Items -->
+            <div class="menu-item">
+                <div class="food-box">
+                    <img src="pizza.jpg" alt="Pizza">
+                </div>
+                <div class="menu-content">
+                    <h3>Pizza</h3>
+                    <p>Pizza klasike dhe e shijshme, perfekte për çdo adhurues të pizzës.</p>
+                    <!-- "Blej" button links to blej.html -->
+                    <a href="blej.html" class="buy-btn">Blej</a> 
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="food-box">
+                    <img src="makarona.jpg" alt="Pasta">
+                </div>
+                <div class="menu-content">
+                    <h3>Pasta</h3>
+                    <p>Një pjatë e thjeshtë por me shije të mrekullueshme.</p>
+                    <!-- "Blej" button links to blej.html -->
+                    <a href="blej.html" class="buy-btn">Blej</a>
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="food-box">
+                    <img src="burger.jpg" alt="Hamburgër">
+                </div>
+                <div class="menu-content">
+                    <h3>Hamburgër</h3>
+                    <p>Hamburgër i shijshëm i shoqëruar me patate të skuqura.</p>
+                    <!-- "Blej" button links to blej.html -->
+                    <a href="blej.html" class="buy-btn">Blej</a>
+                </div>
+            </div>
+            
+            <!-- Drink Items -->
+            <div class="menu-item">
+                <div class="food-box">
+                    <img src="icetea.jpg" alt="Ice Tea">
+                </div>
+                <div class="menu-content">
+                    <h3>Ice Tea</h3>
+                    <p>Pije freskuese me shije të ndryshme.</p>
+                    <!-- "Blej" button links to blej.html -->
+                    <a href="blej.html" class="buy-btn">Blej</a>
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="food-box">
+                    <img src="cocacola.jpg" alt="Coca Cola">
+                </div>
+                <div class="menu-content">
+                    <h3>Coca Cola</h3>
+                    <p>Pije e freskët dhe e gazuar.</p>
+                    <!-- "Blej" button links to blej.html -->
+                    <a href="blej.html" class="buy-btn">Blej</a>
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="food-box">
+                    <img src="fluidi.jpg" alt="Fluid">
+                </div>
+                <div class="menu-content">
+                    <h3>Fluid</h3>
+                    <p>Pije energjitike për të gjithë ditën.</p>
+                    <!-- "Blej" button links to blej.html -->
+                    <a href="blej.html" class="buy-btn">Blej</a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="about">
-        <h2>Rreth Nesh</h2>
-        <p>Ky restorant u hap në vitin 2020. Për rezervime, na kontaktoni.</p>
+    <section id="contact">
+        <h2>Na Kontaktoni</h2>
+        <p>Keni pyetje apo dëshironi të bëni një rezervim? Na kontaktoni!</p>
+        <form>
+            <label for="name">Emri Juaj:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Adresa e Emailit:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mesazhi Juaj:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Dërgo Mesazhin</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; Te Shefkia. Të gjitha të drejtat janë të rezervuara.</p>
+        <p>&copy; 2025 Restoranti Te Shefkia. Të gjitha të drejtat e rezervuara.</p>
     </footer>
 </body>
 </html>
