@@ -35,3 +35,11 @@ var [q1, ,q3 ,q4] = qytetet;
 console.log(q1);
 console.log(q3);
 console.log(q4);
+
+var numbers = [1,2,3,4,5,6,7,8,9,10];
+
+var [first, second, ...otherNumeber]=numbers;
+
+console.log(first);
+console.log(second);
+console.log(othernumbers.tostring());
